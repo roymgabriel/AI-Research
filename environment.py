@@ -82,7 +82,6 @@ class ETFEnvironment:
         returns=pd.read_csv(self.returns, index_col=0)
         assets=np.array(returns.columns)
         dates=np.array(returns.index)
-        # returns=returns.as_matrix()
         returns = returns.to_numpy()
         return pd.DataFrame(prices,
              columns = assets,
