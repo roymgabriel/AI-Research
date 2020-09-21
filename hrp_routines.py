@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from scipy.cluster.hierarchy import dendrogram, linkage
+from scipy.cluster.hierarchy import dendrogram, linkage        
 from scipy.cluster.hierarchy import cophenet
 from scipy.spatial.distance import pdist
 import pylab
